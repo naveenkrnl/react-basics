@@ -19,9 +19,15 @@ function MainContent(){
         timeOfDay="night"
     }
     
+    const styles = {
+        color:"blue",
+        backgroundColor:"yellow"
+    }
+
+    
     return (
         
-        <h1>Good {timeOfDay}</h1>
+        <h1 style={styles}>Good {timeOfDay}</h1>
         )
 }
 
